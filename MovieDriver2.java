@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MovieDriver {
+public class MovieDriver2 {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		String continueLoop = ""; 
@@ -36,7 +36,7 @@ public class MovieDriver {
 			
 		} while (continueLoop.equalsIgnoreCase("y"));
 
-		System.out.println("Goodbye!");
+		System.out.println("\nGoodbye!");
 		keyboard.close();
 	}
 }
